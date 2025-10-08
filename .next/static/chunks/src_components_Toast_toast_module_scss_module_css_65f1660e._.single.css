@@ -1,0 +1,72 @@
+/* [project]/src/components/Toast/toast.module.scss.module.css [client] (css) */
+.toast-module-scss-module___UfHla__toast {
+  box-sizing: border-box;
+  border-radius: 8px;
+  align-items: center;
+  width: 200px;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: .2s ease-in-out toast-module-scss-module___UfHla__fadeIn;
+  display: flex;
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+}
+
+.toast-module-scss-module___UfHla__toastText {
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+@keyframes toast-module-scss-module___UfHla__fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast-module-scss-module___UfHla__toastIcon {
+  color: #fff;
+  min-width: 20px;
+  padding-left: 5px;
+}
+
+.toast-module-scss-module___UfHla__toastCloseIcon {
+  color: #fff;
+  cursor: pointer;
+  width: 13px;
+  height: 13px;
+  transition: color .2s;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.toast-module-scss-module___UfHla__toastCloseIcon:hover {
+  color: #d0cece;
+}
+
+.toast-module-scss-module___UfHla__info {
+  background-color: #2f63ff;
+}
+
+.toast-module-scss-module___UfHla__warning {
+  background-color: #a85f00;
+}
+
+.toast-module-scss-module___UfHla__success {
+  background-color: #237523;
+}
+
+.toast-module-scss-module___UfHla__reject {
+  background-color: #b31212;
+}
+
+/*# sourceMappingURL=src_components_Toast_toast_module_scss_module_css_65f1660e._.single.css.map*/

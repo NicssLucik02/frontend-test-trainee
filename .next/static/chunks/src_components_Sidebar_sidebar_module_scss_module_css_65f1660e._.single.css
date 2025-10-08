@@ -1,0 +1,88 @@
+/* [project]/src/components/Sidebar/sidebar.module.scss.module.css [client] (css) */
+.sidebar-module-scss-module__joJlIq__sidebar {
+  box-sizing: border-box;
+  z-index: 2;
+  border: none;
+  width: 20%;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: right .5s;
+  position: fixed;
+  top: 0;
+  right: -100%;
+}
+
+.sidebar-module-scss-module__joJlIq__sidebar.sidebar-module-scss-module__joJlIq__open {
+  right: 0;
+}
+
+.sidebar-module-scss-module__joJlIq__sidebar.sidebar-module-scss-module__joJlIq__dark {
+  color: #fff;
+  background-color: #031c30;
+  border: none;
+}
+
+.sidebar-module-scss-module__joJlIq__sidebar.sidebar-module-scss-module__joJlIq__light {
+  color: #2c3136;
+  background-color: #fff;
+  border-left: 1px solid #000;
+}
+
+.sidebar-module-scss-module__joJlIq__sidebarContainer {
+  flex-direction: column;
+  height: 100%;
+  padding: 30px 22px 0;
+  display: flex;
+}
+
+.sidebar-module-scss-module__joJlIq__menu {
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 42px 0 0 7px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.sidebar-module-scss-module__joJlIq__menuButton {
+  font-size: 18px;
+}
+
+.sidebar-module-scss-module__joJlIq__menuItemIcon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.sidebar-module-scss-module__joJlIq__menuItemIconArrow {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+.sidebar-module-scss-module__joJlIq__submenu {
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.sidebar-module-scss-module__joJlIq__submenuItem {
+  color: inherit;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.sidebar-module-scss-module__joJlIq__submenuItemLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar-module-scss-module__joJlIq__submenuItemLink:hover {
+  color: #656464;
+}
+
+/*# sourceMappingURL=src_components_Sidebar_sidebar_module_scss_module_css_65f1660e._.single.css.map*/

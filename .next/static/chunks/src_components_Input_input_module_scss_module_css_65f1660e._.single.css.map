@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/src/components/Input/Users/nikitalucenko/Documents/frontend-test-trainee/src/components/Input/input.module.scss"],"sourcesContent":[".inputContainer {\n    font-family: Arial, Helvetica, sans-serif;\n    display: flex;\n    align-items: center;\n    width: 300px;\n    height: 30px;\n    background-color: #fff;\n    border: 1px solid rgb(186, 186, 186);\n    border-radius: 10px;\n}\n\n.input {\n    font-size: 12px;\n    border: none;\n    margin: 0 5px;\n    width: 100%;\n    \n    \n    &:focus {\n        outline: none;\n        box-shadow: none;\n    }\n}\n\n.inputIcon {\n    display: flex;\n    align-items: center;\n    margin-right: 5px;\n    cursor: pointer;\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWA;;;;;;;AAOI;;;;;AAMJ"}}]
+}

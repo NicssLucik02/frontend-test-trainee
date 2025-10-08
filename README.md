@@ -1,1 +1,15 @@
-# frontend-test-trainee
+How to Launch:
+
+npm run dev
+# or
+npm run storybook
+
+![Sidebar Dark Theme](screenshots/sidebar-dark.png)
+![Sidebar Dark Theme](screenshots/sidebar-light.png)
+![Input text](screenshots/input-text.png)
+![Input password](screenshots/input-password.png)
+![Input password visable](screenshots/input-password-vis.png)
+![Toast Info](screenshots/toast-info.png)
+![Toast Warning](screenshots/toast-warning.png)
+![Toast Success](screenshots/toast-success.png)
+![Toast Reject](screenshots/toast-reject.png)

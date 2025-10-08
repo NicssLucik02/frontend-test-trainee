@@ -1,0 +1,94 @@
+
+.sidebar {
+   font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    position: fixed;
+    border: none;
+    height: 100vh;
+    width: 20%;
+    z-index: 2;
+    right: -100%;
+    top: 0;
+    transition: right 0.5s ease;
+    
+    &.open {
+      right: 0;
+    }
+
+    &.dark {
+      background-color: hsl(207, 88%, 10%);
+      color: #fff;
+      border: none;
+    }
+
+    &.light {
+      background-color: #fff;
+      color: #2c3136;
+      border-left: 1px solid black;
+  }
+
+
+    &Container {
+      padding:30px 22px 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 42px 0 0 7px;
+    padding: 0;
+    flex-grow: 1;
+
+    &Button {
+      font-size: 18px;
+    }
+
+    &Item {
+
+      &Icon {
+        height: 15px;
+        width: 15px;
+        margin-right: 5px;
+      }
+
+      &IconArrow {
+        height: 12px;
+        width: 12px;
+        margin-left: 5px;
+        cursor: pointer;
+      }
+    }
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+    margin-left: 10px;
+    
+
+    &Item {
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none;
+      color: inherit;
+
+      &Link {
+        color: #fff;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          color:rgb(101, 100, 100);;
+        }
+      }
+    }
+}
+

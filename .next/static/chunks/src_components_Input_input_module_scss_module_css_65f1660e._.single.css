@@ -1,0 +1,32 @@
+/* [project]/src/components/Input/input.module.scss.module.css [client] (css) */
+.input-module-scss-module__1bnTnq__inputContainer {
+  background-color: #fff;
+  border: 1px solid #bababa;
+  border-radius: 10px;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.input-module-scss-module__1bnTnq__input {
+  border: none;
+  width: 100%;
+  margin: 0 5px;
+  font-size: 12px;
+}
+
+.input-module-scss-module__1bnTnq__input:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.input-module-scss-module__1bnTnq__inputIcon {
+  cursor: pointer;
+  align-items: center;
+  margin-right: 5px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_Input_input_module_scss_module_css_65f1660e._.single.css.map*/

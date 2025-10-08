@@ -1,0 +1,255 @@
+/* [next]/internal/font/google/geist_59dbb69b.module.css [client] (css) */
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/8a480f0b521d4e75-s.8e0177b5.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/7178b3e590c64307-s.b97b3418.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/caa3a2e1cccd8315-s.p.853070df.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Fallback;
+  src: local(Arial);
+  ascent-override: 95.94%;
+  descent-override: 28.16%;
+  line-gap-override: 0.0%;
+  size-adjust: 104.76%;
+}
+
+.geist_59dbb69b-module__dmyMEG__className {
+  font-family: Geist, Geist Fallback;
+  font-style: normal;
+}
+
+.geist_59dbb69b-module__dmyMEG__variable {
+  --font-geist-sans: "Geist", "Geist Fallback";
+}
+
+/* [next]/internal/font/google/geist_mono_4d1d9e3e.module.css [client] (css) */
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/4fa387ec64143e14-s.c1fdd6c2.woff2") format("woff2");
+  unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/bbc41e54d2fcbd21-s.799d8ef8.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: Geist Mono;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../media/797e433ab948586e-s.p.dbea232f.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: Geist Mono Fallback;
+  src: local(Arial);
+  ascent-override: 74.67%;
+  descent-override: 21.92%;
+  line-gap-override: 0.0%;
+  size-adjust: 134.59%;
+}
+
+.geist_mono_4d1d9e3e-module__mOt3xG__className {
+  font-family: Geist Mono, Geist Mono Fallback;
+  font-style: normal;
+}
+
+.geist_mono_4d1d9e3e-module__mOt3xG__variable {
+  --font-geist-mono: "Geist Mono", "Geist Mono Fallback";
+}
+
+/* [project]/src/styles/Home.module.css [client] (css) */
+.Home-module__Ho9lYW__page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), .08);
+  --gray-alpha-100: rgba(var(--gray-rgb), .05);
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  min-height: 100svh;
+  font-family: var(--font-geist-sans);
+  grid-template-rows: 20px 1fr 20px;
+  place-items: center;
+  gap: 64px;
+  padding: 80px;
+  display: grid;
+}
+
+@media (prefers-color-scheme: dark) {
+  .Home-module__Ho9lYW__page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), .145);
+    --gray-alpha-100: rgba(var(--gray-rgb), .06);
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+  }
+}
+
+.Home-module__Ho9lYW__main {
+  flex-direction: column;
+  grid-row-start: 2;
+  gap: 32px;
+  display: flex;
+}
+
+.Home-module__Ho9lYW__main ol {
+  font-family: var(--font-geist-mono);
+  letter-spacing: -.01em;
+  margin: 0;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-position: inside;
+}
+
+.Home-module__Ho9lYW__main li:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+
+.Home-module__Ho9lYW__main code {
+  background: var(--gray-alpha-100);
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.Home-module__Ho9lYW__ctas {
+  gap: 16px;
+  display: flex;
+}
+
+.Home-module__Ho9lYW__ctas a {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 128px;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  transition: background .2s, color .2s, border-color .2s;
+  display: flex;
+}
+
+a.Home-module__Ho9lYW__primary {
+  background: var(--foreground);
+  color: var(--background);
+  gap: 8px;
+}
+
+a.Home-module__Ho9lYW__secondary {
+  border-color: var(--gray-alpha-200);
+  min-width: 158px;
+}
+
+.Home-module__Ho9lYW__footer {
+  grid-row-start: 3;
+  gap: 24px;
+  display: flex;
+}
+
+.Home-module__Ho9lYW__footer a {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.Home-module__Ho9lYW__footer img {
+  flex-shrink: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a.Home-module__Ho9lYW__primary:hover {
+    background: var(--button-primary-hover);
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  a.Home-module__Ho9lYW__secondary:hover {
+    background: var(--button-secondary-hover);
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  .Home-module__Ho9lYW__footer a:hover {
+    text-underline-offset: 4px;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 600px) {
+  .Home-module__Ho9lYW__page {
+    padding: 32px 32px 80px;
+  }
+
+  .Home-module__Ho9lYW__main {
+    align-items: center;
+  }
+
+  .Home-module__Ho9lYW__main ol {
+    text-align: center;
+  }
+
+  .Home-module__Ho9lYW__ctas {
+    flex-direction: column;
+  }
+
+  .Home-module__Ho9lYW__ctas a {
+    height: 40px;
+    padding: 0 16px;
+    font-size: 14px;
+  }
+
+  a.Home-module__Ho9lYW__secondary {
+    min-width: auto;
+  }
+
+  .Home-module__Ho9lYW__footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .Home-module__Ho9lYW__logo {
+    filter: invert();
+  }
+}
+
+/*# sourceMappingURL=%5Broot-of-the-server%5D__cdbeed5c._.css.map*/
