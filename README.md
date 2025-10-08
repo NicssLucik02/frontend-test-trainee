@@ -1,9 +1,3 @@
-How to Launch:
-
-npm run dev
-# or
-npm run storybook
-
 ![Sidebar Dark Theme](screenshots/sidebar-dark.png)
 ![Sidebar Dark Theme](screenshots/sidebar-light.png)
 ![Input text](screenshots/input-text.png)
